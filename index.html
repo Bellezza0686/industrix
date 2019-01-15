@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Макет сайта industrix</title>
+<link href="favicon.ico" rel="icon">
+<style>
+*{margin: 0;
+ padding: 0;
+ font-size: 100%}
+
+html{
+  color:#202020;
+  font: 16px Tahoma, Arial, sans-serif;
+  background:#cacaca url(img/fon.png) repeat-x;}
+  
+#wrapper{
+  width:640px;
+  margin: auto;
+  border: 5px solid #090;}
+
+header{
+  height: 90px;
+  border: 2px solid blue;
+}
+
+header a{
+  width:201px;
+  height:80px;
+  background: url(img/logo.png);
+  float:left;
+  color: transparent;
+  border: 2px solid blue;
+}  
+
+form{  
+  float: right;
+  margin: 42px 78px 0 0;
+  font-size: 0;}
+  
+[type='text']{
+  width:151px;
+  height:17px;
+  border:1px solid #c6c6c6;
+  font-size:16px;}
+  
+[type='submit']{
+  width: 19px;
+  height: 19px;
+  background: url(img/search.png);
+  border:0;
+  font-size:16px;
+}
+#white{
+  background: #fff;
+  padding: 25px 25px 14px;
+}
+nav ul{
+  list-style:none;
+  display: table;
+  width: 100%;
+  table-layout:fixed;
+}
+ nav li{
+  display: table-cell;
+  text-align:center;
+  text-transform:
+ }
+ nav li a{
+  display: block;
+  height: 70px;
+  background: #e7e7e7;
+ }
+</style>
+<!--[if lte IE 8]>
+<script>
+document.createElement('header');
+document.createElement('nav');
+</script>
+<style>
+  header, nav{display: block;}
+</style>
+<![endif]-->
+</head>
+
+<body>
+<div id='wrapper'>
+  <header>
+    <a href='#'>Продажа и ремонт компрессорного оборудования, Москва и Подмосковье</a>
+    <form action='http://ya.ru/yandsearch'>
+      <input type='text' name='text'>
+      <input type='submit' value='&nbsp;'>
+    </form>
+  </header>
+  <div id='white'>
+    <nav>
+      <ul>
+        <li><a href='#' id='tut'>home</a>
+        <li><a href='#'>about us</a>
+        <li><a href='#'>services</a>
+        <li><a href='#'>products</a>
+        <li><a href='#'>projects</a>
+        <li><a href='#'>contacts</a>
+      </ul>
+    </nav>
+  </div>
+  <div id='gradient'>
+    <p>Lorem ipsum dolor sit amet, consectur aidiscing elit? sed do eisomod tempor incididdunt ut labore et dolore eu fugitnulla pariatur. Expectur sint occaecat cupidadta non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectur aidiscing elit? sed do eisomod tempor incididdunt ut labore et dolore eu fugitnulla pariatur. Expectur sint occaecat cupidadta non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+
+</html>
